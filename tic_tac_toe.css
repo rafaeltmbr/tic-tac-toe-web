@@ -1,0 +1,54 @@
+body {		
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Mozila */
+	-ms-user-select: none; /* Internet Explorer */
+	user-select: none; /* Standard */
+	cursor: default;
+	margin: 0;
+}
+
+div.main > div {
+	width: 170px;
+	height: 170px;
+	margin: 5px;
+	float: left;
+	background-color: #bbd;
+	
+}
+
+div.main > div {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 150px;
+	color: white;
+	user-select: none;
+	-ms-user-select: none;
+}
+
+div.main > div:hover {
+	background-color: #77f;
+	box-shadow: 2px 2px 15px black;
+}
+
+div.main > div:active {	
+	box-shadow: none;
+}
+
+div.main {
+	width: 540px;
+	height: 540px;
+	padding: 5px;
+	background-color: #ddf;
+	box-shadow: 5px 5px 20px #aaf;
+	margin: 0 auto;
+}
+
+#gameMsg{
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 5px 0 5px;
+	color: #88f;
+	opacity: 0;
+	text-align: center;
+}
